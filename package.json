@@ -1,0 +1,16 @@
+{
+  "name": "metrix-sdk-html-sample",
+  "version": "1.0.0",
+  "description": "metrix sdk simple html implementation",
+  "scripts": {
+    "start": "serve"
+  },
+  "keywords": [
+    "metrix"
+  ],
+  "author": "Timas",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
