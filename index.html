@@ -98,18 +98,18 @@
             const value2 = document.getElementById("user-c-att-value2-input").value;
 
             if (firstname)
-                window.Metrix.setFirstName(firstname)
+                Metrix.setFirstName(firstname)
 
             if (lastname)
-                window.Metrix.setLastName(lastname)
+                Metrix.setLastName(lastname)
 
             if (phone)
-                window.Metrix.setPhoneNumber(phone)
+                Metrix.setPhoneNumber(phone)
 
             if (key && value)
-                window.Metrix.setCustomAttribute(key, value)
+                Metrix.setCustomAttribute(key, value)
             if (key2 && value2)
-                window.Metrix.setCustomAttribute(key2, value2)
+                Metrix.setCustomAttribute(key2, value2)
 
             alert("sending user attribute!")
         }
